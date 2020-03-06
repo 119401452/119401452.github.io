@@ -5,11 +5,7 @@
 }
 
 body{
-	background-image: url("./images/background.png");
-	background-size:cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
+
 	 
 	 font-family: Arial, Helvetica, sans-serif;
 }
@@ -77,40 +73,6 @@ body{
 	color: rgb(102,255,255);
 }
 
-.container{
-	position: relative;
-	width:50%;
-	margin:auto;
-	top:260px;
-}
-
-.box-1{
-	background-color:transparent;
-	color:rgb(255,255,255);
-	
-	border:3px black dotted;
-	
-	padding:15px;
-	
-	margin-top:60px;
-	margin:20px 0px;
-	
-	text-align: center;
-}
-
-.box-1 h1{
-	font-family:Tahoma;
-	font-weight:1000;
-	font-style:italic;
-	text-decoration:underline;
-	text-transform:uppercase;
-	letter-spacing:0.2em;
-	word-spacing:1em;
-}
-
-.box-1 p{
-	font-weight: 800px;
-}
 
 footer{
 	padding: 10px;
@@ -118,13 +80,24 @@ footer{
 	margin-top: 1px;
 	background-color: black;
 	color: white;
-	top: 540px;
+	bottom: 0px;
 	position: relative;
 	width:100%;
 	margin:auto;
 
 }
 
+.first-details {
+	text-align: center;
+}
 
+.second-details{
+	text-align: center;
+}
+
+.second-details h3{
+	text-decoration: underline;
+	color: red;
+}
 
 
