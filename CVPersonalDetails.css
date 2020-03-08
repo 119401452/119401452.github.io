@@ -91,6 +91,11 @@ footer{
 	text-align: center;
 }
 
+.first-details h3{
+	text-decoration: underline;
+	color: red
+}
+
 .second-details{
 	text-align: center;
 }
@@ -98,6 +103,10 @@ footer{
 .second-details h3{
 	text-decoration: underline;
 	color: red;
+}
+
+.schools li{
+    list-style: square;	
 }
 
 
