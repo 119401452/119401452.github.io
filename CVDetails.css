@@ -1,0 +1,174 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+
+	 
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-bar{
+	background-color:black;
+	text-align: center;
+}
+
+.menu-bar ul{
+	display: inline-flex;
+	list-style:none;
+	color:white;
+}
+
+.menu-bar ul li{
+    width:250px;
+    margin:15px;
+	padding:15px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color:white;	
+}
+
+.active, .menu-bar ul li:hover{
+	background-color: gray;
+	color: white;
+	border-radius:3px;
+}
+
+
+.drop-menu-1{
+	display: none;
+}
+
+.menu-bar ul li:hover .drop-menu-1{
+	display: block;
+	position: absolute;
+	background: black;
+	margin-top: 15px;
+	margin-left:15px;
+}
+
+.menu-bar ul li:hover .drop-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+
+.menu-bar ul li:hover .drop-menu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius:0;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .drop-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+
+.menu-bar ul li:hover .drop-menu-1 ul li a:hover{
+	color: rgb(102,255,255);
+}
+
+
+footer{
+	padding: 10px;
+	text-align: center;
+	margin-top: 1px;
+	background-color: black;
+	color: white;
+	bottom: 0px;
+	position: relative;
+	width:100%;
+	margin:auto;
+
+}
+
+.first-details {
+	text-align: center;
+}
+
+.first-details h3{
+	text-decoration: underline;
+	color: red
+}
+
+.second-details{
+	text-align: center;
+}
+
+.second-details h3{
+	text-decoration: underline;
+	color: red;
+}
+
+.second-details li{
+    color:blue;	
+}
+
+.schools li{
+    list-style: square;	
+}
+
+.table-box{
+    margin: 2px auto;	
+}
+
+.table-row{
+	display: table;
+	width: 60%;
+	margin:10px auto;
+	font-family: sans-serif;
+	background: transparent;
+	padding:6px 0;
+	color: #555;
+	font-size: 13px;
+	box-shadow: 0 1px 4px 0 rgb(0,0,50);
+}
+
+.table-cell{
+    display: table-cell;
+    width: 30%;
+	text-align: center;
+	padding: 4px 0;
+	border-right: 1px solid #d6d4d4;
+	vertical-align: middle;
+}
+
+.table-head{
+	background:#8665f7;
+	box-shadow: none;
+	color:#fff;
+	font-weight:600;
+}
+
+.table-head .table-cell{
+	border-right:none;
+}
+
+.last-cell{
+	border-right:none;
+}
+
+.first-cell{
+    text-align:left;
+	padding:10px;
+}
+
+.third-details{
+	text-align: center;
+}
+
+.third-details h3{
+	text-decoration: underline;
+	color: red;
+}
+
+.third-details li{
+	color: blue;
+	text-decoration: underline;
+}
+
