@@ -3,16 +3,16 @@
 	padding:0;
 	box-sizing: border-box;
 }
-
+/*Setting the font for the contents of the body*/
 body{
 	font-family: Arial, Helvetica, sans-serif;
 }
-
+/*Setting the nav bar so the text is centered and the background is black*/
 .menu-bar{
 	background-color:black;
 	text-align: center;
 }
-
+/*Changing the list components inline, removing the dots next to the list and making the text white*/
 .menu-bar ul{
 	display: inline-flex;
 	list-style:none;
@@ -24,12 +24,12 @@ body{
     margin:15px;
 	padding:15px;
 }
-
+/*Removing the underline and changing the colour to white*/
 .menu-bar ul li a{
     text-decoration: none;
     color:white;	
 }
-
+/*Makes so the background is gray when the text is hovered over*/
 .active, .menu-bar ul li:hover{
 	background-color: gray;
 	color: white;
@@ -40,7 +40,7 @@ body{
 .drop-menu-1{
 	display: none;
 }
-
+/*Makes so a drop down menu is made when the text is hovered over*/
 .menu-bar ul li:hover .drop-menu-1{
 	display: block;
 	position: absolute;
@@ -48,12 +48,12 @@ body{
 	margin-top: 15px;
 	margin-left:15px;
 }
-
+/*Making a margin between each part on the sub menu*/
 .menu-bar ul li:hover .drop-menu-1 ul{
 	display: block;
 	margin: 10px;
 }
-
+/*Making a border between each part of the sub menu*/
 .menu-bar ul li:hover .drop-menu-1 ul li{
 	width: 150px;
 	padding: 10px;
@@ -62,7 +62,7 @@ body{
 	border-radius:0;
 	text-align: left;
 }
-
+/*Removing the bottom border from the bottom of the sub menu*/
 .menu-bar ul li:hover .drop-menu-1 ul li:last-child{
 	border-bottom: none;
 }
@@ -70,7 +70,7 @@ body{
 .menu-bar ul li:hover .drop-menu-1 ul li a:hover{
 	color: rgb(102,255,255);
 }
-
+/*Placing the footer at the bottom of the page and changing the background and colour of the text*/
 footer{
 	padding: 10px;
 	text-align: center;
@@ -83,7 +83,7 @@ footer{
 	margin:auto;
 
 }
-
+/*Moving the pictures inline and to the right place on the page*/
 .hyper{
 	position: relative;
 	top: 150px;
@@ -94,7 +94,7 @@ footer{
 .hyper img{
 	padding-right: 200px;
 }
-
+/*Aligning words with the images*/
 .words{
     padding-left: 250px;
 	word-spacing:17em;

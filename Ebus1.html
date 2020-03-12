@@ -7,41 +7,11 @@
 	 <link rel="stylesheet" type="text/css" href="Calculator.css">
 	    <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		
 	<style>
 </head>
  <style>
-         body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: powderblue;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 25px 30px;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-.topnav a:hover {
-  background-color: powderblue;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: powderblue;
-  color: white;
-}
- 
-            </style>
+ </style>
 <body>
 
  
@@ -80,7 +50,7 @@
 	    </ul>
 	  </div>
 	  
-	  <br><br><br><br><br><br><br>
+	  <br><br><br><br><br><br><br><br>
 	  <center>
         <div class="form">
             <form name="intCalc" method="post" action="eBus2.php">
@@ -130,6 +100,7 @@
         </center>
        
         <br />
+		<!--Making buttons-->
             <center>
             <input type="button" name="btnCalc" id="btnCalc" onclick="calcSub()" value="Calculate Amount"/>
             <input type="reset" name="btnClear" id="btnClear" value="Clear"/>
@@ -140,6 +111,7 @@
         </div>
         </center>
 		<br><br>
+		<!--Using js for the calculator-->
             <script type="text/javascript">
               function calcSub(){
                     var argSelection = parseFloat(document.getElementById('txtSubTot').value);

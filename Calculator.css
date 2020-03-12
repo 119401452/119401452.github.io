@@ -3,16 +3,16 @@
 	padding:0;
 	box-sizing: border-box;
 }
-
+/*Changing the font in the body*/
 body{
 	font-family: Arial, Helvetica, sans-serif;
 }
-
+/*Changing the menu bar colour and text alignment*/
 .menu-bar{
 	background-color:black;
 	text-align: center;
 }
-
+/*Aligning the words and changing colour*/
 .menu-bar ul{
 	display: inline-flex;
 	list-style:none;
@@ -24,12 +24,12 @@ body{
     margin:15px;
 	padding:15px;
 }
-
+/*removing the dots and changing the colour of the text */
 .menu-bar ul li a{
     text-decoration: none;
     color:white;	
 }
-
+/*Making the background grey when hovering over text*/
 .active, .menu-bar ul li:hover{
 	background-color: gray;
 	color: white;
@@ -40,7 +40,7 @@ body{
 .drop-menu-1{
 	display: none;
 }
-
+/*Makes a drop menu when text is hovered over*/
 .menu-bar ul li:hover .drop-menu-1{
 	display: block;
 	position: absolute;
@@ -70,37 +70,16 @@ body{
 .menu-bar ul li:hover .drop-menu-1 ul li a:hover{
 	color: rgb(102,255,255);
 }
-
+/*Placing the fotter at the bottom and making the background colour and text colour*/
 footer{
 	padding: 10px;
 	text-align: center;
 	margin-top: 1px;
 	background-color: black;
 	color: white;
-	top:130px ;
+	top:112px ;
 	position: relative;
 	width:100%;
 	margin:auto;
 
-}
-
-.hyper{
-	position: relative;
-	top: 150px;
-	text-align: center;
-	padding-left:210px;
-}
-
-.hyper img{
-	padding-right: 200px;
-}
-
-.words{
-    padding-left: 250px;
-	word-spacing:17em;
-	color: blue;
-	font-weight: 600;
-	position: relative;
-	top:140px;
-	
 }

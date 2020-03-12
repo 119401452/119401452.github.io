@@ -3,18 +3,18 @@
 	padding:0;
 	box-sizing: border-box;
 }
-
+/*Changing the text in the body*/
 body{
 
 	 
 	 font-family: Arial, Helvetica, sans-serif;
 }
-
+/*making navigation drop menu to black background*/
 .menu-bar{
 	background-color:black;
 	text-align: center;
 }
-
+/*Lining the list horizontally and making the font white*/
 .menu-bar ul{
 	display: inline-flex;
 	list-style:none;
@@ -26,12 +26,12 @@ body{
     margin:15px;
 	padding:15px;
 }
-
+/*removing the dots next to the list and changing the text to white*/
 .menu-bar ul li a{
     text-decoration: none;
     color:white;	
 }
-
+/*making the background grey when hovering over the text on the nav bar*/
 .active, .menu-bar ul li:hover{
 	background-color: gray;
 	color: white;
@@ -42,7 +42,7 @@ body{
 .drop-menu-1{
 	display: none;
 }
-
+/*Creating a drop menu when the text is hovered over*/
 .menu-bar ul li:hover .drop-menu-1{
 	display: block;
 	position: absolute;
@@ -55,7 +55,7 @@ body{
 	display: block;
 	margin: 10px;
 }
-
+/*Making the border between each element of the drop menu dotted*/
 .menu-bar ul li:hover .drop-menu-1 ul li{
 	width: 150px;
 	padding: 10px;
@@ -73,7 +73,7 @@ body{
 	color: rgb(102,255,255);
 }
 
-
+/*Placing the footer at the bottom of the page*/
 footer{
 	padding: 10px;
 	text-align: center;
@@ -86,11 +86,11 @@ footer{
 	margin:auto;
 
 }
-
+/*Centering the text*/
 .first-details {
 	text-align: center;
 }
-
+/*Underling the text and changing the colour to red*/
 .first-details h3{
 	text-decoration: underline;
 	color: red
@@ -104,19 +104,19 @@ footer{
 	text-decoration: underline;
 	color: red;
 }
-
+/*Changing the colour*/
 .second-details li{
     color:blue;	
 }
-
+/*Making the list dots square*/
 .schools li{
     list-style: square;	
 }
-
+/*Giving a margin of 2 px between each box*/
 .table-box{
     margin: 2px auto;	
 }
-
+/*Changing aspects of the table row such as the font; size, colour and box shadow*/
 .table-row{
 	display: table;
 	width: 60%;
@@ -128,7 +128,7 @@ footer{
 	font-size: 13px;
 	box-shadow: 0 1px 4px 0 rgb(0,0,50);
 }
-
+/*Changing the width of each cell*/
 .table-cell{
     display: table-cell;
     width: 30%;
@@ -137,14 +137,14 @@ footer{
 	border-right: 1px solid #d6d4d4;
 	vertical-align: middle;
 }
-
+/*Removing the box shadow from the top box and making the text heavier*/
 .table-head{
 	background:#8665f7;
 	box-shadow: none;
 	color:#fff;
 	font-weight:600;
 }
-
+/*Removing the right border */
 .table-head .table-cell{
 	border-right:none;
 }
@@ -152,16 +152,16 @@ footer{
 .last-cell{
 	border-right:none;
 }
-
+/*Moving the text in the first box to the left*/
 .first-cell{
     text-align:left;
 	padding:10px;
 }
-
+/*Centering the text in the last box*/
 .third-details{
 	text-align: center;
-}
-
+}                                  
+/* underlining the text and changing it red*/
 .third-details h3{
 	text-decoration: underline;
 	color: red;
