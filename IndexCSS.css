@@ -3,7 +3,7 @@
 	padding:0;
 	box-sizing: border-box;
 }
-
+/*Setting the bachfround to fill the page, setting the font for the page*/
 body{
 	background-image: url("./images/background.png");
 	background-size:cover;
@@ -13,29 +13,29 @@ body{
 	 
 	 font-family: Arial, Helvetica, sans-serif;
 }
-
+/*Setting the background colour for the navigation drop down bar */
 .menu-bar{
 	background-color:black;
 	text-align: center;
 }
-
+/*Alligning the text along the navigation bar at the top*/
 .menu-bar ul{
 	display: inline-flex;
 	list-style:none;
 	color:white;
 }
-
+/*Spacing out the text */
 .menu-bar ul li{
     width:250px;
     margin:15px;
 	padding:15px;
 }
-
+/*Removing the dots next to the list content and changing the colour to white*/
 .menu-bar ul li a{
     text-decoration: none;
     color:white;	
 }
-
+/* changing the background to grey when the mouse hovers over any of the list*/
 .active, .menu-bar ul li:hover{
 	background-color: gray;
 	color: white;
@@ -46,7 +46,7 @@ body{
 .drop-menu-1{
 	display: none;
 }
-
+/*Creating the block that drops down when the heading is hovered over */
 .menu-bar ul li:hover .drop-menu-1{
 	display: block;
 	position: absolute;
@@ -59,7 +59,7 @@ body{
 	display: block;
 	margin: 10px;
 }
-
+/*creating the lines between each sub heading in the drop down menu */
 .menu-bar ul li:hover .drop-menu-1 ul li{
 	width: 150px;
 	padding: 10px;
@@ -68,22 +68,22 @@ body{
 	border-radius:0;
 	text-align: left;
 }
-
+/*removing the bottom border from the sub menus */
 .menu-bar ul li:hover .drop-menu-1 ul li:last-child{
 	border-bottom: none;
 }
-
+/*Changing the colour of the headings in the sub menus when the headings are hovered over */
 .menu-bar ul li:hover .drop-menu-1 ul li a:hover{
 	color: rgb(102,255,255);
 }
-
+/*placing the conotainer in a specific place on the page */
 .container{
 	position: relative;
 	width:50%;
 	margin:auto;
 	top:260px;
 }
-
+/*Making the background transparent and placing the box in the middle of the page */
 .box-1{
 	background-color:transparent;
 	color:rgb(255,255,255);
@@ -97,7 +97,7 @@ body{
 	
 	text-align: center;
 }
-
+/*Changing the text in such that the text is; underlined, uppercase and that there is space between each letter and words.*/
 .box-1 h1{
 	font-family:Tahoma;
 	font-weight:1000;
@@ -111,7 +111,7 @@ body{
 .box-1 p{
 	font-weight: 800px;
 }
-
+/*Placing the footer at the bottom of the page and changing colours involved in the footer */
 footer{
 	padding: 10px;
 	text-align: center;
